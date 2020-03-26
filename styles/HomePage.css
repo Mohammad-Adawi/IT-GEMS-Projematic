@@ -118,6 +118,65 @@ h4 {
 	transform: translateX(0);
 }
 
+	/*footer*/
+	footer {
+		line-height: 60px;
+		font-weight: 400;
+		/* box-shadow: 0 1px 3px 0 rgb(192, 198, 208); */
+		height: 60px;
+		background-color: transparent;
+		top: 25%;
+		left: 10% ;
+		position: fixed;
+		right: 0;
+		z-index: 10000;
+		padding-bottom: 15px;
+	  }
+	  
+	  #header {
+		position: relative;
+		width: 970px;
+		margin: 0 auto;
+		background: rgb(255, 51, 0);
+	  }
+	  
+	  #header .menu {
+		float: left;
+		line-height: 60px;
+		margin-bottom: 0;
+		font-size: 13px;
+		list-style: none;
+	  }
+	  
+	  #header .menu li {
+		display: inline-block;
+	  }
+	  
+	  #header .menu li a {
+		font-size: large;
+		display: block;
+		letter-spacing: 3px;
+		text-decoration: none;
+		text-transform: uppercase;
+		color: rgb(23, 37, 90);
+		padding: 0 20px;
+	  }
+	  
+	  #header .menu li a:hover {
+		background: rgb(255, 51, 0)
+	  }
+	  
+	  #header .name {
+		color: rgb(23, 37, 90);
+		height: 60px;
+		float: left;
+		margin-right: 30px;
+		margin-top: 0;
+		font-size: 24px;
+		font-family: 'Coiny', sans-serif;
+		font-variant: small-caps;
+	  }
+	  /*footer*/
 
 @media screen and (max-width: 600px){
 	body{
@@ -135,61 +194,3 @@ h4 {
 		transition: none;
 	}
 }
-/*footer*/
-footer {
-	line-height: 60px;
-	font-weight: 400;
-	/* box-shadow: 0 1px 3px 0 rgb(192, 198, 208); */
-	height: 60px;
-	background-color: transparent;
-	top: 25%;
-	left: 10% ;
-	position: fixed;
-	right: 0;
-	z-index: 10000;
-	padding-bottom: 15px;
-  }
-  
-  #header {
-	position: relative;
-	width: 970px;
-	margin: 0 auto;
-	background: rgb(255, 51, 0);
-  }
-  
-  #header .menu {
-	float: left;
-	line-height: 60px;
-	margin-bottom: 0;
-	font-size: 13px;
-	list-style: none;
-  }
-  
-  #header .menu li {
-	display: inline-block;
-  }
-  
-  #header .menu li a {
-	font-size: large;
-	display: block;
-	letter-spacing: 3px;
-	text-decoration: none;
-	text-transform: uppercase;
-	color: rgb(23, 37, 90);
-	padding: 0 20px;
-  }
-  
-  #header .menu li a:hover {
-	background: rgb(255, 51, 0)
-  }
-  
-  #header .name {
-	color: rgb(23, 37, 90);
-	height: 60px;
-	float: left;
-	margin-right: 30px;
-	margin-top: 0;
-	font-size: 24px;
-	font-family: 'Coiny', sans-serif;
-	font-variant: small-caps;
-  }
